@@ -12,8 +12,7 @@ app.use('/product', productRoutes);
 app.use('/category', categoryRoutes);
 app.use('/admin', adminRoutes);
 
-
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port,
     () =>
         console.log(`Started server at http://localhost:${port}`));
