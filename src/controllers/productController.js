@@ -130,6 +130,10 @@ class ProductController {
             res.status(response.code).send(response);
         }
     }
+
+    async deleteProduct(req, res){
+        
+    }
 }
 
 module.exports = new ProductController();
