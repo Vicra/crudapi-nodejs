@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Vicra/crudapi-nodejs#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "promise-mysql": "^4.1.3"
